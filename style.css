@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
 }
+
 .wrapper {
   width: 320px;
   height: 540px;
@@ -29,6 +31,7 @@ body {
   margin-top: 2.2em;
   position: relative;
 }
+
 .wrapper .profile:after {
   width: 100%;
   height: 1px;
@@ -72,6 +75,7 @@ body {
 }
 .wrapper .profile .btn {
   color: #fff;
+  text-decoration: none;
   width: 200px;
   height: 60px;
   outline: none;
@@ -85,6 +89,10 @@ body {
   border-radius: 70px;
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
   background: linear-gradient(45deg, #1ebea5, #00e676, #d0e9ea);
+}
+.wrapper .profile .btn a, a:visited {
+  color:#fff !important;
+  text-decoration: none !important;
 }
 .wrapper .social-icons {
   display: flex;
